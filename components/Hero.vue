@@ -4,7 +4,7 @@
       An opinionated but faster modern alternative to tsdx and microbundle
     </h1>
     <p class="text-white opacity-50">An opinionated but faster modern alternative to tsdx and microbundle</p>
-    <div class="mt-4 flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
+    <div class="mt-4 flex flex-col sm:flex-row sm:items-center space-y-2 sm:space-y-0 sm:space-x-4">
       <div class="bg-gray-900 py-4 px-6 rounded-xl text-sm text-white font-mono flex items-center justify-between">
         <span class="mr-3">yarn global add quickts</span>
         <button @click="copyInstallCommand">

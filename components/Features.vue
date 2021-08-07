@@ -37,7 +37,7 @@
       </div>
       <div class="p-8 mt-12 bg-white rounded-2xl sm:p-12 sm:text-center">
         <h1 class="max-w-2xl text-3xl font-black leading-tight font-primary">Try QuickTS on the command line</h1>
-        <div class="flex flex-col mt-4 space-y-2 sm:flex-row sm:space-y-0 sm:space-x-4">
+        <div class="flex flex-col mt-4 space-y-2 sm:items-center sm:flex-row sm:space-y-0 sm:space-x-4">
           <span class="px-6 py-4 font-mono text-sm text-white bg-gray-900 rounded-xl"> yarn global add quickts </span>
           <span class="text-sm text-gray-800">OR</span>
           <a
