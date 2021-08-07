@@ -1,6 +1,6 @@
 <template>
-  <section class="max-w-5xl mx-auto pt-20 space-y-12">
-    <div class="max-w-4xl mx-auto grid grid-cols-4 gap-8">
+  <section class="max-w-5xl mx-auto pt-20 space-y-8 sm:space-y-12">
+    <div class="max-w-4xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-8">
       <button
         v-for="command in commands"
         :key="command"
@@ -8,11 +8,11 @@
         :class="command === selected ? 'border-primary-500 shadow-md' : 'border-gray-400'"
         @click="() => (selected = command)"
       >
-        quickts {{ command }}
+        <span class="hidden sm:inline">quickts</span> {{ command }}
       </button>
     </div>
     <div class="max-w-5xl mx-auto min-h-96">
-      <div class="max-w-3xl mx-auto bg-gray-700 p-4 rounded-lg shadow-lg h-96 font-mono text-white">
+      <div class="max-w-3xl mx-auto bg-gray-700 p-4 rounded-lg shadow-lg h-96 font-mono text-white overflow-scroll">
         <div class="flex items-center space-x-1.5">
           <span class="h-2.5 w-2.5 rounded-full bg-gray-400"></span>
           <span class="h-2.5 w-2.5 rounded-full bg-gray-400"></span>

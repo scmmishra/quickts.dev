@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-500 bg-no-repeat bg-contain min-h-screen" style="background-image: url('/assets/bg.svg')">
+  <div class="bg-gray-500 bg-no-repeat bg-contain min-h-screen p-4 sm:p-0" style="background-image: url('/assets/bg.svg')">
     <navbar />
     <hero />
     <example-selector />
